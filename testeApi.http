@@ -1,0 +1,26 @@
+GET http://127.0.0.1:3000/administradores HTTP/1.1
+
+###
+
+POST http://127.0.0.1:3000/administradores HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Wellyngton Marcondes",
+    "email": "wmarcondesbr@gmail.com"
+}
+
+###
+
+PUT http://127.0.0.1:3000/administradores/2 HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Wellyngton",
+    "email": "marcondesbr@gmail.com"
+}
+
+###
+
+DELETE http://127.0.0.1:3000/administradores/2 HTTP/1.1
+content-type: application/json
