@@ -26,7 +26,7 @@ class ListaUsuario extends Component {
 
   lista(){
     //axios.get(`http://127.0.0.1/api/all/administradores`).then((res) => {
-    axios.get(`http://127.0.0.1:1880/usuario`).then((res) => {
+    axios.get(`https://agenda-backend-java.herokuapp.com/usuario`).then((res) => {
       const usuarios = res.data;
       console.log(usuarios)
       this.setState({ usuarios });

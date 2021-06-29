@@ -24,3 +24,18 @@ content-type: application/json
 
 DELETE http://127.0.0.1:3000/administradores/2 HTTP/1.1
 content-type: application/json
+
+
+###
+
+
+GET https://agenda-backend-java.herokuapp.com/usuario
+
+###
+
+POST https://agenda-backend-java.herokuapp.com/usuario
+content-type: application/json
+
+{
+    "nome": "Gazetta"
+}
